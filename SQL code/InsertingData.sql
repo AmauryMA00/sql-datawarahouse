@@ -1,3 +1,16 @@
+/*
+----- EXPLANATION
+-- This script loads the data from a certain route. The procedure does not accept any parameters, and also does 
+-- not return any value too.
+
+Example:
+EXECUTION bronze.load_bronze
+EXEC bronze.load_bronze
+-
+Both of them work, the second one only uses an abreviation
+*/
+
+
 -- Creation of a SQL Procedure
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS 
 BEGIN
