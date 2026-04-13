@@ -1,3 +1,7 @@
+PRINT '-- DELETING THE TABLE: silver.crm_prd_info'
+TRUNCATE TABLE silver.crm_prd_info
+PRINT '-- INSERTING DATA TO THE TABLE: silver.crm_prd_info'
+
 INSERT INTo silver.crm_prd_info (
 	prd_id,
 	cat_id,

@@ -76,9 +76,9 @@ BEGIN
 		PRINT '---------------------------------------------------------------------------------'
 		
 		SET @start_time = GETDATE();
-		PRINT '## Truncating table: bronze.erp_cust_a101'
-		TRUNCATE TABLE bronze.erp_cust_a101; -- Delete the data
-		BULK INSERT bronze.erp_cust_a101 -- Insert the data
+		PRINT '## Truncating table: bronze.erp_loc_a101'
+		TRUNCATE TABLE bronze.erp_loc_a101; -- Delete the data
+		BULK INSERT bronze.erp_loc_a101 -- Insert the data
 		FROM 'C:\Users\ben10\Documents\Projects\SQL\sql-datawarahouse\datasets\erp\LOC_A101.csv'
 		WITH (
 		 FIRSTROW = 2,

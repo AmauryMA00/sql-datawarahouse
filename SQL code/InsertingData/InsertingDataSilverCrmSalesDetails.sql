@@ -1,3 +1,6 @@
+PRINT '-- DELETING THE TABLE: silver.crm_sales_details'
+TRUNCATE TABLE silver.crm_sales_details
+PRINT '-- INSERTING DATA TO THE TABLE: silver.crm_sales_details'
 
 -- With this select we can see that the difference between the sls_order_dt and the sls_ship_dt is allways 7 days
 DECLARE @avg_dias_order_ship INT;
