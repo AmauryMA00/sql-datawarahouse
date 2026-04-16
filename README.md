@@ -76,3 +76,5 @@ Finished the project, this is the fact and the dimensions.As we can see, this is
 ![alt text](img/Star_Schema.drawio.png)
 
 
+## Note
+This is a tutorial project, were I reinforced all the knowledge I have. The author of this project is <ins>Data with Baraa</ins>. I didn't just copied everything, I understood everything and did the code before he shows it in the tutorial.
