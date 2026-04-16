@@ -59,6 +59,12 @@ I'll put the link to that project here:
 
 ![alt text](img/Diagrama_Datawarehouse.drawio.png)
 
+## Table relations
+
+I have multiple tables, now I'll show how it connects between each other:
+
+![alt text](img/Integration_Model.drawio.png)
+
 ## Data flow
 Also, this will be the data flow of the project:
 
